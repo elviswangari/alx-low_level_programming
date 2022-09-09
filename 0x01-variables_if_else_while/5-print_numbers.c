@@ -1,17 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
-* main - Print all single digit numbers
-*
-* Return: Always 0 (Success)
-*/
+ * main - print numbers 0-9
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	int digit;
+	int n = 0;
 
-	for (digit = 0; digit < 10; digit++)
-	printf("%i", digit);
-	putchar('\n');
-
+	while (n <= 9)
+	{
+		printf("%d", n);
+		n++;
+	}
+	printf("\n");
 	return (0);
 }

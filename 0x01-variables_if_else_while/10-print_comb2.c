@@ -1,30 +1,34 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
-* main - Print numbers from 00 to 99
-*
-* Return: Always 0 (Success)
-*/
+ * main - print 2 digit combos
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	int tens;
-	int ones;
+	int f = '0';
+	int s = '0';
 
-		for (tens = 0; tens <= 9; tens++)
-   		 {
-		 for (ones = 0; ones <= 9; ones++)
+	while (f <= '9')
 	{
-	  putchar(tens + '0');
-	  putchar(ones + '0');
-
-	  if (!(tens == 9 && ones == 9))
-	    {
-	      putchar(',');
-	      putchar(' ');
-	    }
+		s = '0';
+		while (s <= '9')
+		{
+			putchar(f);
+			putchar(s);
+			if (s == '9' && f == '9')
+			{
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			s++;
+		}
+		f++;
 	}
-    }
-  putchar('\n');
-
-  return (0);
+	putchar('\n');
+	return (0);
 }

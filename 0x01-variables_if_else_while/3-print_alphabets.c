@@ -1,15 +1,25 @@
-#include <stdio.h>
+#include<stdio.h>
 
-/* printing the alphabet */
+/**
+ * main - Print alphabet, lower & upper cases
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	char c;
+	char z = 'a';
+	char cz = 'A';
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	for (c = 'A'; c <= 'Z'; c++)
-		putchar(c);
-		putchar('\n');
-
+	while (z <= 'z')
+	{
+		putchar(z);
+		z++;
+	}
+	while (cz <= 'Z')
+	{
+		putchar(cz);
+		cz++;
+	}
+	putchar('\n');
 	return (0);
 }
