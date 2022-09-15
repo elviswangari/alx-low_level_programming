@@ -1,5 +1,5 @@
 # alx-low_level_programming
-This repository contains all of the projects done for Holberton School's Low Level Programming track. All of the projects are written in C. The projects follow a styling guide provided for students lovingly known as <a href="https://github.com/holbertonschool/Betty">Betty</a>. All projects are created to run on Ubuntu 14.04 and compiled with the command `gcc -Wall -Wextra -Werror -pedantic`.
+This repository contains all of the projects done for alx Low Level Programming track. All of the projects are written in C. The projects follow a styling guide provided for students lovingly known as <a href="https://github.com/holbertonschool/Betty">Betty</a>. All projects are created to run on Ubuntu 20.04 and compiled with the command `gcc -Wall -Wextra -Werror -pedantic`.
 
 ## Projects in Repository
 - <a href="https://github.com/elviswangari/alx-low_level_programming/blob/main/0x00-hello_world">**0x00-hello_world**</a>: Project for learning how to compile C projects on a Linux machine, as well as some basic C program files.
