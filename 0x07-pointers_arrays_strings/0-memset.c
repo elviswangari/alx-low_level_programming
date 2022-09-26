@@ -1,19 +1,17 @@
 #include "main.h"
-
 /**
- * *_memset - function that  fills memory same byte
- * @s: pointer to s
- * @b: byte to be filled
- * @n: amount of  fill
- * Return: s
+ * _memset - fills memory with a constant byte,
+ * @s: memory area.
+ * @b: constant byte.
+ * @n: bytes filled.
+ * Return: the pointer to dest.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
-	while (i < n)
-	{
-		s[i] = b;
-		i++;
-	}
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		*(s + i) =  b;
+
 	return (s);
 }
