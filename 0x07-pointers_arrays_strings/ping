@@ -1,0 +1,14 @@
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+From 192.168.1.34 icmp_seq=16 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=47 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=51 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=57 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=60 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=76 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=94 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=99 Destination Host Unreachable
+From 192.168.1.34 icmp_seq=164 Destination Host Unreachable
+
+--- 8.8.8.8 ping statistics ---
+237 packets transmitted, 0 received, +9 errors, 100% packet loss, time 241833ms
+
