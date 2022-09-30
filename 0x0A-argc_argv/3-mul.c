@@ -6,21 +6,16 @@
 * @argv: pointer to the command line input
 * Return: 0
 */
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int mul, num1, num2;
-	
-	if (argc -1 != 0)
-	{
-		num1 = atoi(argv[1]);
-		num2 = atoi(argv[2]);
-		mul = num1 * num2;
-		printf("%d\n", mul);
-	}
-	else
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
+	}
+	else
+	{
+		printf("%d\n", atoi(argv[1]));
 	}
 
 	return (0);
