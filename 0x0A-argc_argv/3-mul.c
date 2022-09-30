@@ -1,5 +1,5 @@
-#include "main.h"
 
+#include "main.h"
 /**
 * main - program starts here
 * @argc: argument count
@@ -8,14 +8,20 @@
 */
 int main(int argc, char *argv[])
 {
-	if (argc != 3)
+	int mul, num1, num2;
+
+	if (argc - 1 != 0)
 	{
-		printf("Error\n");
-		return (1);
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		mul = num1 * num2;
+		printf("%d\n", mul);
 	}
 	else
 	{
-		printf("%d\n", atoi(argv[1]));
+		printf("Error\n");
+
+		return (1);
 	}
 
 	return (0);
