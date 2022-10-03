@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - program prints minimum number of coins to make change
+* main - program prints minimum number of coins to make change of any amount
 * @argc: number of commandline arguments
 * @argv: array of commandline arguments
 * Return: 0 on sucess and 1 on failure
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	if (argc == 1 || argc > 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	cents = atoi(argv[1]);
 
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		else if (cents >= 2)
 			cents -= 2;
 		else if (cents >= 1)
-			cents -=1;
+			cents -= 1;
 		ncoins += 1;
 	}
 	printf("%d\n", ncoins);
